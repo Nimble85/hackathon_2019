@@ -12,7 +12,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[pets] (
-	[id]     					INT            IDENTITY (1, 1) NOT NULL,
+	[id]     		INT            IDENTITY (1, 1) NOT NULL,
    	[id_passport]		INT            NOT NULL,
 	[status]		NVARCHAR (MAX) NULL,
 	[birth_day] 		NVARCHAR (MAX) NULL,
