@@ -34,3 +34,4 @@ INSERT INTO [dbo].[pets] ([id], [id_passport], [status], [birth_day], [age], [va
 INSERT INTO [dbo].[pets] ([id], [id_passport], [status], [birth_day], [age], [vaccinations], [name], [discribe]) VALUES (9, 844837, N'host', N'30-01-19', 1, N'yes', N'keysy', N'none')
 INSERT INTO [dbo].[pets] ([id], [id_passport], [status], [birth_day], [age], [vaccinations], [name], [discribe]) VALUES (10, 747384, N'host', N'14-06-19', 1, N'yes', N'bob', N'none')
 SET IDENTITY_INSERT [dbo].[pets] OFF
+
